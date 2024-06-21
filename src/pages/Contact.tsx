@@ -30,7 +30,10 @@ function Contact() {
             many industries, including finance, healthcare, marketing, and technology.
           </p>
         </Container>
+        <Container ordem={false} cor={false}>
         <DefaultCard children={<Form />}></DefaultCard>
+        </Container>
+
       </DefaultPage>
     </>
   );
